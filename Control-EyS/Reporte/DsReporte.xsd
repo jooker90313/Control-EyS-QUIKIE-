@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Empleado" msprop:Generator_RowClassName="EmpleadoRow" msprop:Generator_RowEvHandlerName="EmpleadoRowChangeEventHandler" msprop:Generator_RowDeletedName="EmpleadoRowDeleted" msprop:Generator_RowDeletingName="EmpleadoRowDeleting" msprop:Generator_RowEvArgName="EmpleadoRowChangeEvent" msprop:Generator_TablePropName="Empleado" msprop:Generator_RowChangedName="EmpleadoRowChanged" msprop:Generator_UserTableName="Empleado" msprop:Generator_RowChangingName="EmpleadoRowChanging" msprop:Generator_TableClassName="EmpleadoDataTable" msprop:Generator_TableVarName="tableEmpleado">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idEmpleado" msprop:Generator_UserColumnName="idEmpleado" msprop:Generator_ColumnPropNameInTable="idEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="idEmpleado" msprop:Generator_ColumnVarNameInTable="columnidEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="nombreEmpleado" msprop:Generator_UserColumnName="nombreEmpleado" msprop:Generator_ColumnPropNameInTable="nombreEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="nombreEmpleado" msprop:Generator_ColumnVarNameInTable="columnnombreEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="apellidoEmpleado" msprop:Generator_UserColumnName="apellidoEmpleado" msprop:Generator_ColumnPropNameInTable="apellidoEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="apellidoEmpleado" msprop:Generator_ColumnVarNameInTable="columnapellidoEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="cargoEmpleado" msprop:Generator_UserColumnName="cargoEmpleado" msprop:Generator_ColumnPropNameInTable="cargoEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="cargoEmpleado" msprop:Generator_ColumnVarNameInTable="columncargoEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="departamentoEmpleado" msprop:Generator_UserColumnName="departamentoEmpleado" msprop:Generator_ColumnPropNameInTable="departamentoEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="departamentoEmpleado" msprop:Generator_ColumnVarNameInTable="columndepartamentoEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="email" msprop:Generator_UserColumnName="email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" type="xs:string" minOccurs="0" />
+              <xs:element name="telefono" msprop:Generator_UserColumnName="telefono" msprop:Generator_ColumnPropNameInTable="TelefonoColumn" msprop:Generator_ColumnPropNameInRow="Telefono" msprop:Generator_ColumnVarNameInTable="columnTelefono" type="xs:string" minOccurs="0" />
+              <xs:element name="direccion" msprop:Generator_UserColumnName="direccion" msprop:Generator_ColumnPropNameInTable="DireccionColumn" msprop:Generator_ColumnPropNameInRow="Direccion" msprop:Generator_ColumnVarNameInTable="columnDireccion" type="xs:string" minOccurs="0" />
+              <xs:element name="estadoEmpleado" msprop:Generator_UserColumnName="estadoEmpleado" msprop:Generator_ColumnPropNameInTable="estadoEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="estadoEmpleado" msprop:Generator_ColumnVarNameInTable="columnestadoEmpleado" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Departamento" msprop:Generator_RowClassName="DepartamentoRow" msprop:Generator_RowEvHandlerName="DepartamentoRowChangeEventHandler" msprop:Generator_RowDeletedName="DepartamentoRowDeleted" msprop:Generator_RowDeletingName="DepartamentoRowDeleting" msprop:Generator_RowEvArgName="DepartamentoRowChangeEvent" msprop:Generator_TablePropName="Departamento" msprop:Generator_RowChangedName="DepartamentoRowChanged" msprop:Generator_UserTableName="Departamento" msprop:Generator_RowChangingName="DepartamentoRowChanging" msprop:Generator_TableClassName="DepartamentoDataTable" msprop:Generator_TableVarName="tableDepartamento">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idDepartamento" msprop:Generator_UserColumnName="idDepartamento" msprop:Generator_ColumnPropNameInTable="IdDepartamentoColumn" msprop:Generator_ColumnPropNameInRow="IdDepartamento" msprop:Generator_ColumnVarNameInTable="columnIdDepartamento" type="xs:string" minOccurs="0" />
+              <xs:element name="nombreDepartamento" msprop:Generator_UserColumnName="nombreDepartamento" msprop:Generator_ColumnPropNameInTable="NombreDepartamentoColumn" msprop:Generator_ColumnPropNameInRow="NombreDepartamento" msprop:Generator_ColumnVarNameInTable="columnNombreDepartamento" type="xs:string" minOccurs="0" />
+              <xs:element name="estadoDepartamento" msprop:Generator_UserColumnName="estadoDepartamento" msprop:Generator_ColumnPropNameInTable="EstadoDepartamentoColumn" msprop:Generator_ColumnPropNameInRow="EstadoDepartamento" msprop:Generator_ColumnVarNameInTable="columnEstadoDepartamento" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cargo" msprop:Generator_RowClassName="CargoRow" msprop:Generator_RowEvHandlerName="CargoRowChangeEventHandler" msprop:Generator_RowDeletedName="CargoRowDeleted" msprop:Generator_RowDeletingName="CargoRowDeleting" msprop:Generator_RowEvArgName="CargoRowChangeEvent" msprop:Generator_TablePropName="Cargo" msprop:Generator_RowChangedName="CargoRowChanged" msprop:Generator_UserTableName="Cargo" msprop:Generator_RowChangingName="CargoRowChanging" msprop:Generator_TableClassName="CargoDataTable" msprop:Generator_TableVarName="tableCargo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idCargo" msprop:Generator_UserColumnName="idCargo" msprop:Generator_ColumnPropNameInTable="idCargoColumn" msprop:Generator_ColumnPropNameInRow="idCargo" msprop:Generator_ColumnVarNameInTable="columnidCargo" type="xs:string" minOccurs="0" />
+              <xs:element name="nombreCargo" msprop:Generator_UserColumnName="nombreCargo" msprop:Generator_ColumnPropNameInTable="nombreCargoColumn" msprop:Generator_ColumnPropNameInRow="nombreCargo" msprop:Generator_ColumnVarNameInTable="columnnombreCargo" type="xs:string" minOccurs="0" />
+              <xs:element name="estadoCargo" msprop:Generator_UserColumnName="estadoCargo" msprop:Generator_ColumnPropNameInTable="estadoCargoColumn" msprop:Generator_ColumnPropNameInRow="estadoCargo" msprop:Generator_ColumnVarNameInTable="columnestadoCargo" type="xs:string" minOccurs="0" />
+              <xs:element name="departamentoCargo" msprop:Generator_UserColumnName="departamentoCargo" msprop:Generator_ColumnPropNameInTable="departamentoCargoColumn" msprop:Generator_ColumnPropNameInRow="departamentoCargo" msprop:Generator_ColumnVarNameInTable="columndepartamentoCargo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Horas_x0020_E_x002F_S" msprop:Generator_RowClassName="_Horas_E_SRow" msprop:Generator_RowEvHandlerName="_Horas_E_SRowChangeEventHandler" msprop:Generator_RowDeletedName="_Horas_E_SRowDeleted" msprop:Generator_RowDeletingName="_Horas_E_SRowDeleting" msprop:Generator_RowEvArgName="_Horas_E_SRowChangeEvent" msprop:Generator_TablePropName="_Horas_E_S" msprop:Generator_RowChangedName="_Horas_E_SRowChanged" msprop:Generator_UserTableName="Horas E/S" msprop:Generator_RowChangingName="_Horas_E_SRowChanging" msprop:Generator_TableClassName="_Horas_E_SDataTable" msprop:Generator_TableVarName="_tableHoras_E_S">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombreEmpleadoR" msprop:Generator_UserColumnName="nombreEmpleadoR" msprop:Generator_ColumnPropNameInTable="nombreEmpleadoRColumn" msprop:Generator_ColumnPropNameInRow="nombreEmpleadoR" msprop:Generator_ColumnVarNameInTable="columnnombreEmpleadoR" type="xs:string" minOccurs="0" />
+              <xs:element name="apellidoEmpleadoR" msprop:Generator_UserColumnName="apellidoEmpleadoR" msprop:Generator_ColumnPropNameInTable="apellidoEmpleadoRColumn" msprop:Generator_ColumnPropNameInRow="apellidoEmpleadoR" msprop:Generator_ColumnVarNameInTable="columnapellidoEmpleadoR" type="xs:string" minOccurs="0" />
+              <xs:element name="horaEntrada" msprop:Generator_UserColumnName="horaEntrada" msprop:Generator_ColumnPropNameInTable="horaEntradaColumn" msprop:Generator_ColumnPropNameInRow="horaEntrada" msprop:Generator_ColumnVarNameInTable="columnhoraEntrada" type="xs:string" minOccurs="0" />
+              <xs:element name="horaSalida" msprop:Generator_UserColumnName="horaSalida" msprop:Generator_ColumnPropNameInTable="horaSalidaColumn" msprop:Generator_ColumnPropNameInRow="horaSalida" msprop:Generator_ColumnVarNameInTable="columnhoraSalida" type="xs:string" minOccurs="0" />
+              <xs:element name="totalHoras" msprop:Generator_UserColumnName="totalHoras" msprop:Generator_ColumnPropNameInTable="totalHorasColumn" msprop:Generator_ColumnPropNameInRow="totalHoras" msprop:Generator_ColumnVarNameInTable="columntotalHoras" type="xs:string" minOccurs="0" />
+              <xs:element name="Fechas" msprop:Generator_UserColumnName="Fechas" msprop:Generator_ColumnPropNameInTable="FechasColumn" msprop:Generator_ColumnPropNameInRow="Fechas" msprop:Generator_ColumnVarNameInTable="columnFechas" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="EmpleadoKey1">
+      <xs:selector xpath=".//mstns:Empleado" />
+      <xs:field xpath="mstns:idEmpleado" />
+    </xs:unique>
+    <xs:unique name="DepartamentoKey1">
+      <xs:selector xpath=".//mstns:Departamento" />
+      <xs:field xpath="mstns:idDepartamento" />
+    </xs:unique>
+    <xs:unique name="CargoKey1">
+      <xs:selector xpath=".//mstns:Cargo" />
+      <xs:field xpath="mstns:idCargo" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Empleado_Horas_x0020_E_x002F_S1" msdata:parent="Empleado" msdata:child="Horas_x0020_E_x002F_S" msdata:parentkey="idEmpleado" msdata:childkey="apellidoEmpleadoR" msprop:Generator_UserParentTable="Empleado" msprop:Generator_UserChildTable="Horas E/S" msprop:Generator_RelationVarName="_relationEmpleado_Horas_E_S1" msprop:Generator_ChildPropName="_GetHoras_E_SRowsByEmpleado_Horas_E_S1" msprop:Generator_ParentPropName="_EmpleadoRowByEmpleado_Horas_E_S1" msprop:Generator_UserRelationName="Empleado_Horas E/S1" />
+      <msdata:Relationship name="Empleado_Horas_x0020_E_x002F_S" msdata:parent="Empleado" msdata:child="Horas_x0020_E_x002F_S" msdata:parentkey="idEmpleado" msdata:childkey="nombreEmpleadoR" msprop:Generator_UserParentTable="Empleado" msprop:Generator_UserChildTable="Horas E/S" msprop:Generator_RelationVarName="_relationEmpleado_Horas_E_S" msprop:Generator_ChildPropName="_GetHoras_E_SRowsByEmpleado_Horas_E_S" msprop:Generator_ParentPropName="_EmpleadoRowByEmpleado_Horas_E_S" msprop:Generator_UserRelationName="Empleado_Horas E/S" />
+      <msdata:Relationship name="Departamento_Empleado" msdata:parent="Departamento" msdata:child="Empleado" msdata:parentkey="idDepartamento" msdata:childkey="departamentoEmpleado" msprop:Generator_UserParentTable="Departamento" msprop:Generator_UserChildTable="Empleado" msprop:Generator_RelationVarName="relationDepartamento_Empleado" msprop:Generator_UserRelationName="Departamento_Empleado" msprop:Generator_ChildPropName="GetEmpleadoRows" msprop:Generator_ParentPropName="DepartamentoRow" />
+      <msdata:Relationship name="Departamento_Cargo" msdata:parent="Departamento" msdata:child="Cargo" msdata:parentkey="idDepartamento" msdata:childkey="departamentoCargo" msprop:Generator_UserParentTable="Departamento" msprop:Generator_UserChildTable="Cargo" msprop:Generator_RelationVarName="relationDepartamento_Cargo" msprop:Generator_ChildPropName="GetCargoRows" msprop:Generator_ParentPropName="DepartamentoRow" msprop:Generator_UserRelationName="Departamento_Cargo" />
+      <msdata:Relationship name="Cargo_Empleado" msdata:parent="Cargo" msdata:child="Empleado" msdata:parentkey="idCargo" msdata:childkey="cargoEmpleado" msprop:Generator_UserParentTable="Cargo" msprop:Generator_UserChildTable="Empleado" msprop:Generator_RelationVarName="relationCargo_Empleado" msprop:Generator_UserRelationName="Cargo_Empleado" msprop:Generator_ChildPropName="GetEmpleadoRows" msprop:Generator_ParentPropName="CargoRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
